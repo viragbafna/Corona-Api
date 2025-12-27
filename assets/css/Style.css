@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.tracker-card {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.main-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.action-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.action-btn:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+#nodata {
+    color: red;
+    text-align: center;
+    border: none;
+}
